@@ -5,26 +5,22 @@ To study and implement bitwise operators in C++.
 Tools Required:
 Visual Studio Code (VS Code)
 
-C++ Compiler (MinGW-w64)
 
-Terminal / Command Prompt
 
 Theory:
 Bitwise operators perform operations on the binary representation of data. These operators are commonly used in low-level programming, embedded systems, and for optimizing certain algorithms.
 
-Bitwise Operators Table
-Operator	Description	Example Result
-&	Bitwise AND	5 & 3 = 1
+1.Bitwise Operators Table
+ Operator	Description	Example Result
+ &	Bitwise AND	5 & 3 = 1
 `	`	Bitwise OR
-^	Bitwise XOR	5 ^ 3 = 6
-~	Bitwise NOT	~5 = -6
-<<	Left Shift (multiplies by 2^n)	5 << 1 = 10
->>	Right Shift (divides by 2^n)	5 >> 1 = 2
+ ^	Bitwise XOR	5 ^ 3 = 6
+ ~	Bitwise NOT	~5 = -6
+ <<	Left Shift (multiplies by 2^n)	5 << 1 = 10
+ >>	Right Shift (divides by 2^n)	5 >> 1 = 2
 
 Example Code Concept:
-cpp
-Copy
-Edit
+syntax:
 int a = 5;   // Binary: 0101
 int b = 3;   // Binary: 0011
 
